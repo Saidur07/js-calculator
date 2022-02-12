@@ -12,7 +12,37 @@
 </head>
 
 <body>
+    <main>
 
+        <div class="container">
+            <div class="main-textarea">
+                <form name="mainText">
+                    <input type="text" name="txt" readonly placeholder="0">
+                </form>
+            </div>
+            <div class="buttons">
+                <button id="btn-1" onclick="document.mainText.txt.value=''">AC</button>
+                <button id="btn-2" onclick="document.mainText.txt.value=mainText.txt.value.slice(0, - 1);">DEL</button>
+                <button id="btn-3" onclick="document.mainText.txt.value+='%'">%</button>
+                <button id="btn-4" onclick="document.mainText.txt.value+='/'">/</button>
+                <button id="btn-5" onclick="document.mainText.txt.value+='7'">7</button>
+                <button id="btn-6" onclick="document.mainText.txt.value+='8'">8</button>
+                <button id="btn-7" onclick="document.mainText.txt.value+='9'">9</button>
+                <button id="btn-8" onclick="document.mainText.txt.value+='*'">*</button>
+                <button id="btn-9" onclick="document.mainText.txt.value+='4'">4</button>
+                <button id="btn-10" onclick="document.mainText.txt.value+='5'">5</button>
+                <button id="btn-11" onclick="document.mainText.txt.value+='6'">6</button>
+                <button id="btn-12" onclick="document.mainText.txt.value+='-'">-</button>
+                <button id="btn-13" onclick="document.mainText.txt.value+='1'">1</button>
+                <button id="btn-14" onclick="document.mainText.txt.value+='2'">2</button>
+                <button id="btn-15" onclick="document.mainText.txt.value+='3'">3</button>
+                <button id="btn-16" onclick="document.mainText.txt.value+='+'">+</button>
+                <button id="btn-17" onclick="document.mainText.txt.value+='0'">0</button>
+                <button id="btn-18" onclick="document.mainText.txt.value+='.'">.</button>
+                <button id="btn-19" onclick="document.mainText.txt.value= eval(mainText.txt.value)">=</button>
+            </div>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #d489b4,
+    #cb8ec2,
+    #bf93cf,
+    #b09ad9,
+    #9fa0e1,
+    #8fabec,
+    #7db5f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 30vw;
+  height: 70vh;
+  background: rgb(40, 50, 60);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-textarea {
+  width: 100%;
+  height: 30%;
+  border-radius: 40px;
+}
+.main-textarea input {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background: rgb(40, 50, 60);
+  color: white;
+  font-size: 3em;
+  padding: 50px;
+  text-align: right;
+}
+.buttons {
+  width: 100%;
+  height: 70%;
+  border-radius: 40px;
+  background: rgb(40, 50, 60);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+}
+.buttons button{
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(40, 50, 60);
+    box-shadow: rgb(18 35 48) 0px 2px 3px 1px;
+    border: none;
+    color: white;
+    font-size:1.2em;
+}
+#btn-19{
+    grid-column: 3 / span 2;
+    background-color: #4ea7fb;
+    box-shadow: none;
+    font-size: 1.5em;
+}
+#btn-1,#btn-2,#btn-3,#btn-4,#btn-8,#btn-12,#btn-16{
+    color: #4ea7fb;
+}
+.buttons button:active{
+
+    background-color: #4ea7fb;
+    box-shadow: none;
+
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width:1080px) {
+  .container {
+    width: 60vw;
+    height: 90vh;
+  }
+}
