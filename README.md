@@ -1,3 +1,10 @@
-# A very simple Calcultor using HTML, CSS and JavaScript
 
-<a href="https://programmer-saidur.github.io/js-calculator/" taget="_blank"> https://programmer-saidur.github.io/js-calculator/ </a>
+# A Basic calculator using HTML, CSS and JavaScript
+
+
+
+[Link : https://programmer-saidur.github.io/js-calculator/](https://programmer-saidur.github.io/js-calculator/)
+
+
+![Logo](https://www.freeiconspng.com/thumbs/calculator-icon/calculator-icon-1.png)
+
