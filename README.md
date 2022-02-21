@@ -1,5 +1,5 @@
 
-# A Basic calculator using HTML, CSS and JavaScript
+#  A Basic calculator using HTML, CSS and JavaScript
 
 
 
